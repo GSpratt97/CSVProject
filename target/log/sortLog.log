@@ -1,0 +1,434 @@
+2020-12-16 13:58:28,126 INFO c.s.g.App [main] The program has been initialised!
+2020-12-16 13:58:52,373 INFO c.s.g.App [main] The program has been initialised!
+2020-12-16 13:59:14,106 INFO c.s.g.App [main] The program has been initialised!
+2020-12-16 14:00:49,588 INFO c.s.g.App [main] The program has been initialised!
+2020-12-16 14:06:53,693 INFO c.s.g.App [main] The program has been initialised!
+2020-12-16 14:15:05,411 INFO c.s.g.App [main] The program has been initialised!
+2020-12-16 14:15:05,415 INFO c.s.g.c.CSVReader [main] Converting CSV into SQL database
+2020-12-16 14:15:05,728 INFO c.s.g.m.EmployeeDTO [main] Check for duplicates and remove both into seperate ArrayList
+2020-12-16 14:15:06,728 INFO c.s.g.m.EmployeeDAO [main] Insert each line of CSV into database
+2020-12-16 14:21:33,453 INFO c.s.g.App [main] The program has been initialised!
+2020-12-16 14:21:33,458 INFO c.s.g.c.CSVReader [main] Converting CSV into SQL database
+2020-12-16 14:21:33,870 INFO c.s.g.m.EmployeeDTO [main] Check for duplicates and remove both into seperate ArrayList
+2020-12-16 14:21:34,892 INFO c.s.g.m.EmployeeDAO [main] Insert each line of CSV into database
+2020-12-16 14:21:41,032 INFO c.s.g.App [main] Log time to complete. Time taken: 6136 ms
+2020-12-16 14:22:54,224 INFO c.s.g.App [main] The program has been initialised!
+2020-12-16 14:22:54,227 INFO c.s.g.c.CSVReader [main] Converting CSV into SQL database
+2020-12-16 14:22:54,557 INFO c.s.g.m.EmployeeDTO [main] Check for duplicates and remove both into seperate ArrayList
+2020-12-16 14:22:55,512 INFO c.s.g.m.EmployeeDAO [main] Insert each line of CSV into database
+2020-12-16 14:23:01,656 INFO c.s.g.App [main] Log time to complete. Time taken: 6139 ms
+2020-12-16 14:23:11,760 INFO c.s.g.App [main] The program has been initialised!
+2020-12-16 14:23:11,764 INFO c.s.g.c.CSVReader [main] Converting CSV into SQL database
+2020-12-16 14:23:12,186 INFO c.s.g.m.EmployeeDTO [main] Check for duplicates and remove both into seperate ArrayList
+2020-12-16 14:23:13,205 INFO c.s.g.m.EmployeeDAO [main] Insert each line of CSV into database
+2020-12-16 14:23:19,103 INFO c.s.g.App [main] Log time to complete. Time taken: 5894 ms
+2020-12-16 14:26:19,342 INFO c.s.g.App [main] The program has been initialised!
+2020-12-16 14:26:19,346 INFO c.s.g.c.CSVReader [main] Converting CSV into SQL database
+2020-12-16 14:26:19,659 INFO c.s.g.m.EmployeeDTO [main] Check for duplicates and remove both into seperate ArrayList
+2020-12-16 14:26:20,645 INFO c.s.g.m.EmployeeDAO [main] Insert each line of CSV into database
+2020-12-16 14:26:26,887 INFO c.s.g.App [main] Log time to complete. Time taken: 6237 ms
+2020-12-16 14:35:10,493 INFO c.s.g.App [main] The program has been initialised!
+2020-12-16 14:35:10,497 INFO c.s.g.c.CSVReader [main] Converting CSV into SQL database
+2020-12-16 14:35:10,821 INFO c.s.g.m.EmployeeDTO [main] Check for duplicates and remove both into seperate ArrayList
+2020-12-16 14:35:11,844 INFO c.s.g.m.EmployeeDAO [main] Insert each line of CSV into database
+2020-12-16 14:35:17,686 INFO c.s.g.App [main] Log time to complete. Time taken: 5838 ms
+2020-12-16 15:45:34,654 ERROR c.s.g.c.App [main] Error whilst converting CSV!
+2020-12-16 17:03:35,794 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-16 17:03:35,799 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-16 17:03:37,080 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-16 17:04:03,261 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-16 17:04:03,262 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-16 17:04:28,963 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-16 17:04:29,482 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-16 17:05:15,217 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 45730 ms
+2020-12-17 10:13:48,853 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 10:13:48,861 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 10:13:49,844 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 10:14:10,859 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 10:14:10,859 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 10:14:31,734 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 10:14:32,239 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 10:14:32,280 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 37 ms
+2020-12-17 10:14:54,688 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 10:14:54,693 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 10:14:55,838 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 10:15:18,455 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 10:15:18,455 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 10:15:41,966 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 10:15:42,417 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 10:16:19,543 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 37120 ms
+2020-12-17 10:16:41,379 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 10:16:41,383 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 10:16:42,203 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 10:17:05,023 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 10:17:05,023 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 10:17:27,828 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 10:17:28,230 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 10:18:04,372 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 36138 ms
+2020-12-17 10:22:14,784 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 10:22:14,791 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 10:22:15,909 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 10:22:39,459 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 10:22:39,459 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 10:23:02,453 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 10:23:02,462 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 47668 ms
+2020-12-17 10:23:02,925 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 10:23:40,003 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 37077 ms
+2020-12-17 10:27:18,370 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 10:27:18,375 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 10:27:19,291 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 910 ms
+2020-12-17 10:27:19,292 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 10:27:41,481 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 10:27:41,481 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 10:28:08,776 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 10:28:09,291 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 10:28:45,719 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 36427 ms
+2020-12-17 11:22:20,818 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 11:22:20,823 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 11:22:32,847 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 11:22:32,853 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 11:22:33,286 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 425 ms
+2020-12-17 11:22:33,287 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 11:22:33,883 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 11:22:33,883 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 11:22:34,336 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 11:22:34,827 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 11:22:41,246 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 6418 ms
+2020-12-17 12:07:01,454 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 12:07:01,467 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 12:07:01,926 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 452 ms
+2020-12-17 12:07:01,927 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 12:07:02,656 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 12:07:02,657 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 12:07:03,263 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 12:07:04,071 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 12:07:10,327 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 6255 ms
+2020-12-17 13:33:15,788 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 13:33:15,792 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 13:33:16,167 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 362 ms
+2020-12-17 13:33:16,168 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 13:33:16,750 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 13:33:16,750 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 13:33:17,208 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 13:33:17,701 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 13:33:17,747 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 46 ms
+2020-12-17 13:48:38,516 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 13:48:38,520 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 13:48:38,809 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 284 ms
+2020-12-17 13:48:38,810 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 13:49:44,863 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 13:49:44,866 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 13:49:45,165 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 291 ms
+2020-12-17 13:49:45,165 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 13:49:45,768 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 13:51:35,460 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 13:51:35,467 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 13:51:35,803 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 329 ms
+2020-12-17 13:51:35,804 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 13:51:49,310 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 13:51:49,314 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 13:51:49,554 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 233 ms
+2020-12-17 13:51:49,555 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 13:52:25,563 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 13:52:25,568 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 13:52:25,883 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 308 ms
+2020-12-17 13:52:25,884 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 13:53:07,307 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 13:53:07,317 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 13:53:07,718 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 392 ms
+2020-12-17 13:53:07,719 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 13:55:10,362 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 13:55:10,369 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 13:55:11,063 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 685 ms
+2020-12-17 13:55:11,065 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 13:55:11,819 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 13:55:11,819 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 13:55:12,348 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 13:55:12,794 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 13:55:18,759 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 5964 ms
+2020-12-17 14:01:08,792 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:01:08,797 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:01:10,052 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 1246 ms
+2020-12-17 14:01:10,053 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:01:34,470 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:01:34,470 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:02:01,027 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:02:01,492 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:02:39,407 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 37915 ms
+2020-12-17 14:04:49,582 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:04:49,586 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:04:50,412 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 823 ms
+2020-12-17 14:04:50,413 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:04:50,442 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:04:50,442 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:04:50,459 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:04:50,952 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:05:26,340 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 35387 ms
+2020-12-17 14:09:37,488 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:09:37,492 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:09:38,252 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 756 ms
+2020-12-17 14:09:38,253 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:09:38,282 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:09:38,282 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:09:38,298 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:09:38,753 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:09:38,790 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 37 ms
+2020-12-17 14:09:59,117 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:09:59,121 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:10:00,039 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 914 ms
+2020-12-17 14:10:00,040 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:10:00,074 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:10:00,074 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:10:00,091 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:10:00,596 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:10:35,363 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 34767 ms
+2020-12-17 14:11:25,741 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:11:25,748 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:11:26,175 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 417 ms
+2020-12-17 14:11:26,176 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:11:26,277 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:11:26,277 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:11:26,328 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:11:26,818 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:11:32,553 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 5735 ms
+2020-12-17 14:12:49,426 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:12:49,432 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:12:49,805 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 367 ms
+2020-12-17 14:12:49,806 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:12:50,304 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:12:50,304 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:12:50,751 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:12:51,137 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:12:57,182 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 6044 ms
+2020-12-17 14:13:27,652 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:13:27,657 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:13:28,457 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 796 ms
+2020-12-17 14:13:28,458 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:13:48,824 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:13:48,824 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:14:11,049 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:14:11,570 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:14:50,192 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 38622 ms
+2020-12-17 14:15:23,455 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:15:23,459 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:15:24,262 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 799 ms
+2020-12-17 14:15:24,262 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:15:47,070 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:15:47,070 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:16:10,081 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:16:10,518 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:16:45,145 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 34626 ms
+2020-12-17 14:17:28,430 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:17:28,434 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:17:29,185 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 746 ms
+2020-12-17 14:17:29,186 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:17:50,911 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:17:50,912 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:18:11,187 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:18:11,643 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:18:45,594 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 33950 ms
+2020-12-17 14:19:12,054 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:19:12,058 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:19:12,396 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 333 ms
+2020-12-17 14:19:12,397 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:19:12,924 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:19:12,924 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:19:13,359 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:19:13,725 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:19:19,539 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 5813 ms
+2020-12-17 14:19:45,047 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:19:45,052 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:19:45,877 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 821 ms
+2020-12-17 14:19:45,878 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:20:07,298 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:20:07,298 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:20:29,160 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:20:29,559 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:21:04,863 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 35304 ms
+2020-12-17 14:22:40,392 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:22:40,396 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:22:41,185 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 785 ms
+2020-12-17 14:22:41,186 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:22:41,214 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:22:41,214 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:22:41,230 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:22:41,630 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:23:14,456 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:23:14,461 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:23:14,888 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 420 ms
+2020-12-17 14:23:14,889 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:23:14,987 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:23:14,987 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:23:15,039 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:23:15,585 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:23:21,442 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 5857 ms
+2020-12-17 14:23:45,018 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:23:45,023 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:23:45,918 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 890 ms
+2020-12-17 14:23:45,919 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:23:45,949 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:23:45,949 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:23:45,967 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:23:46,451 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:24:23,453 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 37001 ms
+2020-12-17 14:29:55,571 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:29:55,578 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:29:56,579 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 997 ms
+2020-12-17 14:29:56,580 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:29:56,610 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:29:56,610 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:29:56,627 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:29:57,046 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:30:36,077 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:30:36,085 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:30:36,896 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 806 ms
+2020-12-17 14:30:36,896 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:30:36,929 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:30:36,929 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:30:36,946 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:30:37,375 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:31:07,391 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:31:07,395 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:31:08,129 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 730 ms
+2020-12-17 14:31:08,130 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:31:08,161 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:31:08,161 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:31:08,178 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:31:08,591 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:31:27,109 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:31:27,122 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:31:28,146 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 1017 ms
+2020-12-17 14:31:28,151 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:31:28,195 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:31:28,195 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:31:28,218 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:31:28,856 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:31:40,274 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:31:40,285 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:31:41,141 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 851 ms
+2020-12-17 14:31:41,143 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:31:41,175 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:31:41,175 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:31:41,193 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:33:47,826 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:33:47,835 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:33:48,737 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 897 ms
+2020-12-17 14:33:48,738 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:33:48,771 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:33:48,771 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:33:48,791 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:51:46,037 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:51:46,041 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:51:47,063 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 1011 ms
+2020-12-17 14:51:47,064 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:51:47,108 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:51:47,109 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:51:47,138 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:51:47,806 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:51:47,845 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 39 ms
+2020-12-17 14:52:07,998 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:52:08,004 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:52:08,368 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 357 ms
+2020-12-17 14:52:08,369 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:52:08,460 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:52:08,461 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:52:08,496 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:52:08,961 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:52:15,297 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 6336 ms
+2020-12-17 14:52:41,778 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 14:52:41,782 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 14:52:42,547 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 762 ms
+2020-12-17 14:52:42,548 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:52:42,574 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:52:42,574 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 14:52:42,590 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 14:52:42,982 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 14:53:16,099 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 33117 ms
+2020-12-17 15:15:00,601 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 15:15:00,605 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 15:15:01,488 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 877 ms
+2020-12-17 15:15:01,489 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 15:15:01,516 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 15:15:01,517 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 15:15:01,530 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 15:15:01,943 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 15:15:01,975 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 33 ms
+2020-12-17 15:15:21,123 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 15:15:21,127 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 15:15:21,585 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 450 ms
+2020-12-17 15:15:21,586 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 15:15:21,690 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 15:15:21,690 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 15:15:21,727 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 15:15:22,278 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 15:15:29,135 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 6857 ms
+2020-12-17 21:15:50,822 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 21:15:50,828 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 21:15:51,133 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 298 ms
+2020-12-17 21:15:51,134 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:15:51,221 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:15:51,221 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:15:51,300 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:15:51,724 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 21:15:51,761 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 36 ms
+2020-12-17 21:18:50,821 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 21:18:50,832 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 21:18:51,269 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 430 ms
+2020-12-17 21:18:51,270 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:18:51,369 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:18:51,369 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:18:51,424 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:18:51,867 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 21:18:51,912 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 45 ms
+2020-12-17 21:19:04,442 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 21:19:04,446 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 21:19:04,757 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 306 ms
+2020-12-17 21:19:04,758 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:19:04,826 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:19:04,826 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:19:04,859 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:19:05,281 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 21:19:10,948 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 5666 ms
+2020-12-17 21:23:55,508 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 21:23:55,511 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 21:23:55,806 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 289 ms
+2020-12-17 21:23:55,807 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:23:55,885 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:23:55,885 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:23:55,921 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:23:56,301 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 0 ms
+2020-12-17 21:25:27,771 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 21:25:27,773 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 21:25:28,094 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 314 ms
+2020-12-17 21:25:28,096 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:25:28,180 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:25:28,180 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:25:28,220 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:25:28,638 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 0 ms
+2020-12-17 21:26:16,843 INFO c.s.g.c.App [main] The program has been initialised!
+2020-12-17 21:26:16,847 INFO c.s.g.c.App [main] Converting CSV into SQL database
+2020-12-17 21:26:17,178 INFO c.s.g.c.App [main] Log time to read CSV file. Time taken: 324 ms
+2020-12-17 21:26:17,179 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:26:17,272 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:26:17,272 INFO c.s.g.c.App [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:26:17,327 INFO c.s.g.c.App [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:26:17,732 INFO c.s.g.c.App [main] Insert each line of CSV into database
+2020-12-17 21:26:23,012 INFO c.s.g.c.App [main] Log time to insert to SQL. Time taken: 5280 ms
+2020-12-17 21:27:52,344 INFO c.s.g.c.EmployeeApp [main] The program has been initialised!
+2020-12-17 21:27:52,347 INFO c.s.g.c.EmployeeApp [main] Converting CSV into SQL database
+2020-12-17 21:27:52,588 INFO c.s.g.c.EmployeeApp [main] Log time to read CSV file. Time taken: 236 ms
+2020-12-17 21:27:52,589 INFO c.s.g.c.EmployeeApp [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:27:52,662 INFO c.s.g.c.EmployeeApp [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:27:52,662 INFO c.s.g.c.EmployeeApp [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:27:52,699 INFO c.s.g.c.EmployeeApp [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:27:53,143 INFO c.s.g.c.EmployeeApp [main] Insert each line of CSV into database
+2020-12-17 21:27:53,176 INFO c.s.g.c.EmployeeApp [main] Log time to insert to SQL. Time taken: 32 ms
+2020-12-17 21:28:44,663 INFO c.s.g.c.EmployeeApp [main] The program has been initialised!
+2020-12-17 21:28:44,666 INFO c.s.g.c.EmployeeApp [main] Converting CSV into SQL database
+2020-12-17 21:28:44,891 INFO c.s.g.c.EmployeeApp [main] Log time to read CSV file. Time taken: 220 ms
+2020-12-17 21:28:44,892 INFO c.s.g.c.EmployeeApp [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:28:44,965 INFO c.s.g.c.EmployeeApp [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:28:44,965 INFO c.s.g.c.EmployeeApp [main] Check for duplicates and remove both into separate ArrayList
+2020-12-17 21:28:45,027 INFO c.s.g.c.EmployeeApp [main] Return clean or corrupted employee ArrayList
+2020-12-17 21:28:45,495 INFO c.s.g.c.EmployeeApp [main] Insert each line of CSV into database
+2020-12-17 21:28:45,524 INFO c.s.g.c.EmployeeApp [main] Log time to insert to SQL. Time taken: 28 ms
