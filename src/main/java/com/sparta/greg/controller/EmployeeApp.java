@@ -4,7 +4,6 @@ import com.sparta.greg.model.EmployeeDAO;
 import com.sparta.greg.model.EmployeeDTO;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.util.ArrayList;
 import com.sparta.greg.view.LoggerClass;
 
@@ -15,12 +14,15 @@ public class EmployeeApp {
     public static final int NUM_OF_THREADS = 1;
 
     public static void start() {
-        ArrayList<EmployeeDTO> test = CSVReader.readEmployees(FILE_PATH);
-//        ArrayList<EmployeeDTO> test = CSVReader.readEmployees(FILE_PATH_LARGE);
+//        ArrayList<EmployeeDTO> test = CSVReader.readEmployees(FILE_PATH);
+        ArrayList<EmployeeDTO> test = CSVReader.readEmployees(FILE_PATH_LARGE);
+
         Connection connection = EmployeeDAO.connectToDB(URL);
 
         long startInsertCSV = System.currentTimeMillis();
-        EmployeeDAO.insertData(test);
+        SplitThreads.demo(test);
+
+//        EmployeeDAO.insertData(test);
 
         long finishInsertCSV = System.currentTimeMillis();
         long timeToInsertSQL = finishInsertCSV - startInsertCSV;
