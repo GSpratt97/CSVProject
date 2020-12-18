@@ -1,13 +1,13 @@
 package com.sparta.greg.model;
 
+import com.sparta.greg.view.LoggerClass;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 
 public class DataValidation {
     public static ArrayList<EmployeeDTO> cleanEmployees;
     public static ArrayList<EmployeeDTO> corruptedEmployees;
-
-
 
     public static ArrayList<EmployeeDTO> checkDuplicates(ArrayList<EmployeeDTO> employees, boolean isClean) {
 //    public static ArrayList<EmployeeDTO> checkDuplicates(ArrayList<EmployeeDTO> employees) {
@@ -35,10 +35,13 @@ public class DataValidation {
             }
         }
 
-        LoggerClass.logTrace("Return clean or corrupted employee ArrayList");
         if (isClean) {
+            LoggerClass.logTrace("Return clean employee ArrayList");
+
             return cleanEmployees;
         } else {
+            LoggerClass.logTrace("Return corrupted employee ArrayList");
+
             return corruptedEmployees;
         }
     }

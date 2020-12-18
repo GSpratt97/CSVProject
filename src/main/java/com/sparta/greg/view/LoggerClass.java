@@ -1,4 +1,4 @@
-package com.sparta.greg.model;
+package com.sparta.greg.view;
 
 import com.sparta.greg.controller.EmployeeApp;
 import org.apache.logging.log4j.LogManager;

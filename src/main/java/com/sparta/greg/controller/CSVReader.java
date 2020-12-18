@@ -3,7 +3,7 @@ package com.sparta.greg.controller;
 import com.sparta.greg.model.DataValidation;
 import com.sparta.greg.model.EmployeeDTO;
 import com.sparta.greg.model.EmployeeFileWriter;
-import com.sparta.greg.model.LoggerClass;
+import com.sparta.greg.view.LoggerClass;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -55,7 +55,7 @@ public class CSVReader {
         }
         long finishWriteToCSV = System.currentTimeMillis();
         long timeToWriteToCSV = finishWriteToCSV - startWriteToCSV;
-        System.out.println("Time taken to write CSV file: "+ timeToWriteToCSV + " ms");
+        System.out.println("Time taken to write duplicates CSV file: "+ timeToWriteToCSV + " ms");
 
         System.out.println("Size of clean employees ArrayList: "+ cleanEmployees.size());
         return cleanEmployees;

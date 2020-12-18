@@ -1,5 +1,7 @@
 package com.sparta.greg.model;
 
+import com.sparta.greg.view.LoggerClass;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.sql.*;
@@ -19,7 +21,7 @@ public class EmployeeDAO {
         }
     }
 
-    public static void connectToDB(String url) {
+    public static Connection connectToDB(String url) {
         createProperties();
         String userName = properties.getProperty("userName");
         String password = properties.getProperty("password");
@@ -28,7 +30,21 @@ public class EmployeeDAO {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
+        LoggerClass.logTrace("Connected to SQL database");
         System.out.println("Connected to Database");
+
+        truncateDB();
+        LoggerClass.logTrace("Cleared existing data in SQL table");
+        return connection;
+    }
+
+    public static void truncateDB() {
+        try {
+            Statement statement = connection.createStatement();
+            statement.execute("TRUNCATE `employee_database`.`employees`");
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
     }
 
     public static void queryDB(String query) {
@@ -48,7 +64,6 @@ public class EmployeeDAO {
         LoggerClass.logTrace("Insert each line of CSV into database");
 
         try {
-//            Statement statement = connection.createStatement();
             PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO `employee_database`.`employees` (`emp_id`, `name_prefix`, `first_name`, `middle_initial`, `last_name`, `gender`, `email`, `dob`, `date_of_joining`, `salary`) VALUES (?,?,?,?,?,?,?,?,?,?)");
             for (EmployeeDTO dataRows : dataToInsert) {
                 preparedStatement.setString(1, dataRows.getEmp_ID());

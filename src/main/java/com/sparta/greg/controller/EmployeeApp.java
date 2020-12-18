@@ -2,34 +2,35 @@ package com.sparta.greg.controller;
 
 import com.sparta.greg.model.EmployeeDAO;
 import com.sparta.greg.model.EmployeeDTO;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.util.ArrayList;
-import com.sparta.greg.model.LoggerClass;
+import com.sparta.greg.view.LoggerClass;
 
 public class EmployeeApp {
     private static final String FILE_PATH = "src/main/resources/EmployeeRecords.csv";
     private static final String FILE_PATH_LARGE = "src/main/resources/EmployeeRecordsLarge.csv";
     private static final String URL = "jdbc:mysql://localhost:3306/employee_database";
+    public static final int NUM_OF_THREADS = 1;
 
     public static void start() {
-        LoggerClass.logTrace("The program has been initialised!");
         ArrayList<EmployeeDTO> test = CSVReader.readEmployees(FILE_PATH);
 //        ArrayList<EmployeeDTO> test = CSVReader.readEmployees(FILE_PATH_LARGE);
-
-        EmployeeDAO.connectToDB(URL);
+        Connection connection = EmployeeDAO.connectToDB(URL);
 
         long startInsertCSV = System.currentTimeMillis();
-
         EmployeeDAO.insertData(test);
-//        Threads.threads(test);
+
         long finishInsertCSV = System.currentTimeMillis();
         long timeToInsertSQL = finishInsertCSV - startInsertCSV;
         LoggerClass.logTrace("Log time to insert to SQL. Time taken: "+ timeToInsertSQL + " ms");
         System.out.println("Time taken to insert into database: "+ timeToInsertSQL + " ms");
 
 //        EmployeeDAO.queryDB("SELECT * FROM employee_database.employees");
-
 //        EmployeeRepository.employeeRepository(employees);
     }
+
 }
 
 //  For this project, you will be performing a data migration exercise from a CSV file to a SQL database. The file contains details about Employees
@@ -43,3 +44,4 @@ public class EmployeeApp {
 //  Submission:
 //  - Code should be hosted on your own Github page with a suitable README.md file
 //  - A link to your completed project should be emailed to Manish by 23:59 on 18/12/2020
+
