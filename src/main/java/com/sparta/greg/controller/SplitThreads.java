@@ -16,26 +16,34 @@ public class SplitThreads {
         new ThreadDemo();
         try {
             int length = test.size();
-            System.out.println(length);
+//            System.out.println(length);
             ArrayList<EmployeeDTO> firstQuarter = new ArrayList<>();
             ArrayList<EmployeeDTO> secondQuarter = new ArrayList<>();
             ArrayList<EmployeeDTO> thirdQuarter = new ArrayList<>();
             ArrayList<EmployeeDTO> finalQuarter = new ArrayList<>();
 
-            for (int i = 0; i < length * (1/4); i++) {
+//            System.out.println(length /4);
+            for (int i = 0; i < length / 4; i++) {
                 firstQuarter.add(test.get(i));
             }
-            for (int i = length * (1/4); i < length * (2/4); i++) {
+            for (int i = length / 4; i < length / 2; i++) {
                 secondQuarter.add(test.get(i));
             }
-            for (int i = length * (2/4); i < length * (3/4); i++) {
+            for (int i = length / 2; i < (length / 2) + (length / 4); i++) {
                 thirdQuarter.add(test.get(i));
             }
-            for (int i = length * (3/4); i < length; i++) {
+            for (int i = (length / 2) + (length / 4); i < length; i++) {
                 finalQuarter.add(test.get(i));
             }
+            ArrayList<ArrayList<EmployeeDTO>> numberDivided = new ArrayList<>();
+            numberDivided.add(firstQuarter);
+            numberDivided.add(secondQuarter);
+            numberDivided.add(thirdQuarter);
+            numberDivided.add(finalQuarter);
 
-            System.out.println("Main thread");
+//            System.out.println("Main thread");
+
+//            return numberDivided;
 
             EmployeeDAO.insertData(firstQuarter);
             EmployeeDAO.insertData(secondQuarter);
@@ -45,7 +53,7 @@ public class SplitThreads {
         } catch (Exception e) {
             System.out.println("The main thread is interrupted");
         }
-        System.out.println("Exiting the main thread");
+//        System.out.println("Exiting the main thread");
     }
 }
 

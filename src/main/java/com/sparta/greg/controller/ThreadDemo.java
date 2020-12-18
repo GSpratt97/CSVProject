@@ -6,18 +6,18 @@ class ThreadDemo implements Runnable {
     ThreadDemo() {
         thread1 = new Thread(this, "Thread1");
         thread2 = new Thread(this, "Thread2" );
-        System.out.println("Child thread: " +thread1);
-        System.out.println("Child thread: " +thread2);
+//        System.out.println("Child thread: " +thread1);
+//        System.out.println("Child thread: " +thread2);
 
         thread1.start();
         thread2.start();
     }
     public void run() {
         try {
-            System.out.println("Child Thread");
+//            System.out.println("Child Thread");
             Thread.sleep(0);
         } catch (InterruptedException e) {
-            System.out.println("Exiting the child thread");
+//            System.out.println("Exiting the child thread");
         }
     }
 }
